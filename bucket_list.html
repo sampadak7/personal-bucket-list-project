@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY BUCKET LIST</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background:rgb(255, 193, 193);
+            text-align: center;
+            padding: 20px;
+        }
+ h1 {
+            color: #ffa42e;
+            font-size: 2.5em;
+        }
+h2 {
+            color: #ff852f;
+            font-size: 1.8em;
+            margin-top: 20px;
+        }
+        ol, ul {
+            padding: 15px;
+            width: 60%;
+            margin: auto;
+            background: rgb(255, 146, 146);
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: left;
+        }
+
+        ol li, ul li {
+            font-size: 1.2em;
+            padding: 12px;
+            margin: 8px 0;
+            border-bottom: 1px solid #856767;
+            transition: transform 0.2s ease-in-out;
+            display: flex;
+            align-items: center;
+        }
+
+        .star::before {
+            content: "⭐";
+            margin-right: 10px;
+            color: goldenrod;
+            font-size: 1.2em;
+        }
+
+        ol li:hover, ul li:hover {
+            background: #f7e3b5;
+            border-radius: 5px;
+            transform: scale(1.05);
+        }
+
+        @media (max-width: 768px) {
+            ol, ul {
+                width: 90%;
+            }
+        }
+ hr {
+            height: 2px;
+            border: none;
+            background: #814C27;
+            width: 50%;
+            margin: 20px auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>MY PERSONAL BUCKET LIST</h1>
+
+    <h2>TO DO</h2>
+    <ol>
+        <li class="star">SOLO TRAVELLING</li>
+        <li>JOB CRACKING</li>
+        <li class="star">HEALTHY LIFE</li>
+        <li>CLEAR SKIN</li>
+        <li class="star">Go on a road trip with friends</li>
+        <li>Learn a new language</li>
+    </ol>
+    
+    <hr>
+
+    <h2>My Daily Do List</h2>
+    <ul>
+        <li>DANCE</li>
+        <li>MUSIC</li>
+        <li>DRAWING</li>
+        <li>CODE PRACTICE</li>
+    </ul>
+</body>
+</html>
